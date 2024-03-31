@@ -1,0 +1,85 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 29, 2024, 12:13:18 PM
+    Author     : Admin
+*/
+*{
+    font-family: sans-serif;
+}
+header .menu > ul > li:nth-child(4) {
+    border-bottom: #72090f 3px solid;
+}
+.image {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.image img {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+.image .title {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: quicksand, sans-serif;
+    font-size: 50px;
+}
+.body {
+    background-color: #f5f5f5;
+}
+.intro {
+    font-family: quicksand, sans-serif;
+    color: #72090f;
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+}
+.services-container {
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.service-item {
+    box-sizing: border-box;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+.services-container img {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+}
+.service-item h2 {
+    font-family: quicksand, sans-serif;
+    color: #420807;
+}
+.service-item div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-item .price {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    color: #72090f;
+}
+.service-item button {
+    border: none;
+    border-radius: 10px;
+    background-color: #72090f;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}

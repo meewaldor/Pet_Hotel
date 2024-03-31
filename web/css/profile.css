@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+.profile-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 0px 10px;
+}
+.profile-sub-container {
+    padding-left: 50px;
+}
+.profile-sub-container h1 {
+    font-size: var(--base-size-24, 1.5rem);
+    font-weight: var(--base-text-weight-normal, 400);
+    border-bottom: 1px solid rgb(161, 161, 161);
+    padding: 10px 0;
+}
+.profile-sub-container input {
+    border: 1px solid rgb(185, 184, 184);
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 12px;
+    vertical-align: middle;
+    border-radius: 6px;
+    width: 80%;
+}
+
+.profile-sub-container .avatar img {
+    border-radius: 50%;
+    height: 200px;
+}
+.sidebar {
+   border-right: 1px solid rgb(185, 184, 184);
+   padding-top: 30px;
+}
+.sidebar ul {
+    padding: 0;
+}
+.sidebar li {
+    list-style-type: none;
+    padding: 10px;
+}
+.sidebar li:hover {
+    background-color: #f7f7f7;
+}
+.sidebar a {
+    color: #7e848b;
+    text-decoration: none;
+    display: block;
+}
+.profile-sub-container {
+    padding-top: 30px;
+}
+.profile-sub-container .avatar {
+    position: relative;
+}
+.profile-sub-container .btAvatar {
+    position: absolute;
+    bottom: 10px;
+    left: 120px;
+    border: none;
+    color: transparent;
+}
+.member {
+    border: 1px solid rgb(185, 184, 184);
+    padding: 5px;
+    width: 25%;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.profile-sub-container input[type="submit"] {
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #0550ae;
+    width: 100px;
+    height: 40px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.profile-sub-container a:last-child {
+    display: inline;
+    color: rgb(1, 82, 255); 
+    padding: 30px; 
+    font-size: 14px;
+}
+.profile-sub-container a:last-child:hover {
+    text-decoration: underline;
+}

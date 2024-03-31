@@ -1,0 +1,14 @@
+#calendar {
+  margin: 20px 0;
+}
+#calendar .fc-center {
+  margin-top: 20px;
+  color: #65060b;
+}
+#calendar .fc-day {
+  background-color: #ddffcc;
+  cursor: pointer;
+}
+#calendar .fc-other-month {
+  background-color: #f5f5f5;
+}

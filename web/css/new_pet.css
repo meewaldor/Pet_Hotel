@@ -1,0 +1,78 @@
+body {
+    position: relative;
+    height: 100vh;
+}
+.pet-container .pet-add-form {
+    width: 50%;
+    font-family: sans-serif;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,0);
+    background-color: white;
+    border-radius: 5px;
+    display: none;
+    z-index: 1;
+}
+.pet-add-form h2,
+.pet-update-form h2 {
+    background-color: #6c8bbb;
+    padding: 10px;
+    margin: 0;
+    color:white;
+}
+.pet-add-form form,
+.pet-update-form form {
+    padding: 10px;
+}
+.pet-add-form form p,
+.pet-update-form form p {
+    margin: 5px 0;
+}
+.pet-add-form form .control,
+.pet-update-form form .control {
+    box-sizing: border-box;
+    height: 30px;
+    width: 80%;
+}
+.pet-container input[type="file"] {
+    border: none;
+    padding-left: 0;
+}
+.pet-container input[type="number"] {
+    margin-bottom: 10px;
+}
+.pet-container input[type="radio"] {
+    width: 30px;
+    margin: 0;
+}
+.pet-container .submit-button,
+.pet-container .reset-button {
+    box-sizing: border-box;
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #214d8f;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.pet-container .reset-button {
+    background-color: rgb(136, 135, 135);
+}
+.pet-container .submit-button:hover {
+    background-color: #3d5e90;
+}
+.pet-container .reset-button:hover {
+    background-color: rgb(165, 164, 164);
+}
+.pet-container .blur {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(164, 163, 163, 0.516);
+    display: none;
+}

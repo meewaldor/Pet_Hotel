@@ -1,0 +1,116 @@
+* {
+    font-family: sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ebedf0;
+    height: 70px;
+    box-sizing: border-box;
+    align-items: center;
+}
+.header h1 {
+    font-family: Poppins;
+    font-weight: 350;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+/*  */
+.tool button {
+    position: relative;
+}
+/* .tool button .sort,
+.tool button .search {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+} */
+.tool {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.tool .search {
+    position: relative;
+}
+.tool .fa-search {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    color: grey;
+}
+.tool .search input[type="text"] {
+    height: 20px;
+    width: 200px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.tool .search select {
+    box-sizing: border-box;
+    height: 22px;
+    width: 80px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.fa-sort, .fa-filter, .fa-plus, .fa-list {
+    padding: 5px;
+}
+.btSearch {
+    box-sizing: border-box;
+    padding: 5px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ebedf0;
+    cursor: pointer;
+    width: 70px;    
+}
+.tool button {
+    border: 1px solid #ebedf0;
+    border-radius: 5px;
+    margin: 0 3px;
+    background-color: #ebedf0;
+}
+button {
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(207, 211, 219);
+}
+/* table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table .head {
+    text-align: left;
+    background-color: rgb(232, 239, 254);
+
+}
+table .head th {
+    padding: 10px;
+    color: rgb(113, 110, 110);
+    font-size: 13px;
+}
+table td {
+    padding: 10px;
+    border-bottom: 1px solid rgb(199, 198, 198);
+    font-size: 14px;
+}
+.pagination-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.table-container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+.table-sub-container {
+    height: 70vh;
+    border-right: 1px solid rgb(199, 198, 198);
+    border-bottom: 1px solid rgb(199, 198, 198);
+}

@@ -1,0 +1,98 @@
+header {
+  box-sizing: border-box;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  height: 70px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1.2fr;
+  align-items: center;
+  font-family: sans-serif;
+  z-index: 2;
+  border-bottom: 1px solid rgb(161, 161, 161);
+}
+header .menu ul {
+  padding-left: 0;
+}
+header .menu > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 10px 30px;
+  text-align: center;
+  align-self: center;
+  margin: 0;
+}
+header .menu > ul > li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+.menu ul li {
+  position: relative;
+}
+.menu li ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  text-align: left;
+  font-size: 13px;
+  top: 40px;
+  width: 160px;
+}
+.menu > ul > li:hover {
+  border-bottom: 3px solid #72090f;
+  color: #451010;
+}
+.dropdown ul li {
+  padding: 20px 10px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.dropdown ul li:hover {
+  background-color: #72090f;
+  color: #fff;
+}
+
+.menu li:hover > ul {
+  position: absolute;
+  display: block;
+  z-index: 2;
+}
+header .menu li {
+  list-style: none;
+}
+.booking {
+  justify-self: start;
+}
+.bookingbtn {
+  padding: 15px 30px;
+  border: none;
+  background-color: #72090f;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.bookingbtn:hover {
+  background-color: #451010;
+}
+.user {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  /* text-align: center; */
+  align-items: start;
+}
+.user a {
+  padding: 0 3px;
+}
+.user a:nth-child(2),
+.user a:nth-child(3) {
+  border-left: 1px solid black;
+}
+.user a:hover {
+  color: #72090f;
+  font-weight: 600;
+}

@@ -1,0 +1,44 @@
+.cabin-type {
+  padding: 20px 0px;
+  box-sizing: border-box;
+}
+.cabin-type h2 {
+  font-family: quicksand, sans-serif;
+  font-size: 30px;
+  color: #451010;
+}
+.cabin-type .container {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 5vh 5vw;
+  height: 420px;
+  grid-gap: 10px;
+}
+.cabin-type .container img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+.cabin-type .container h3 {
+  font-family: quicksand, sans-serif;
+  font-size: 20px;
+  color: #451010;
+}
+.cabin-type .container p {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+.cabin-type button {
+  font-family: quicksand, sans-serif;
+  width: 160px;
+  height: 40px;
+  background-color: #72090f;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+}
+
+

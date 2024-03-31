@@ -1,0 +1,123 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 20, 2024, 5:01:31 PM
+    Author     : Admin
+*/
+
+* {
+  font-family: sans-serif;
+}
+header .menu > ul > li:nth-child(3) {
+  border-bottom: #72090f 3px solid;
+}
+.dropdown ul li:nth-child(3) {
+  background-color: #72090f;
+  color: #fff;
+}
+.body {
+  background-color: #f5f5f5;
+  padding: 5% 7%;
+}
+.intro {
+    padding: 0 15%;
+}
+.intro h1 {
+    font-family: quicksand, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color:#450505;
+}
+.intro p {
+    font-family: quicksand, sans-serif;
+    color:#450505;
+    font-size: 18px;
+}
+.intro i {
+    color: grey;
+}
+.room-category {
+  padding: 20px 0px;
+  box-sizing: border-box;
+}
+.room-category h1 {
+  padding: 30px;
+  font-weight: 500;
+  font-size: 40px;
+  color: #450505;
+  margin: 0;
+}
+.room-category .detail {
+  box-sizing: border-box;
+  background-color: white;
+  padding: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  border-radius: 10px;
+}
+.room-category .detail img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.room-category .detail .description {
+  text-align: left;
+  padding-left: 60px;
+  list-style-type: circle black;
+}
+.room-category .detail .description li {
+  line-height: 2;
+}
+.room-category .detail .description h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #450505;
+  font-family: quicksand, sans-serif;
+}
+/* add ons */
+.add-ons h3 {
+  font-weight: 500;
+  font-size: 40px;
+  color: #450505;
+  margin: 30px 0;
+}
+.add-ons h4 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #450505;
+  font-family: quicksand, sans-serif;
+}
+.add-ons .detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px 0;
+}
+.add-ons .detail img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.add-ons .detail .sub-detail {
+  text-align: left;
+  padding: 0 20px;
+}
+.add-ons .detail .sub-detail .title {
+  text-align: justify;
+  width: 100%;
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #450505;
+  font-family: quicksand, sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+.add-ons .detail .sub-detail .title p {
+  margin: 0;
+  font-family: quicksand, sans-serif;
+}

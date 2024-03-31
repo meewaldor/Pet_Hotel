@@ -1,0 +1,106 @@
+.login-page {
+  font-family: sans-serif;
+}
+.login-page .login-form {
+  border: 1px solid black;
+  width: 25%;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  min-width: 400px;
+}
+.login-page .login-form h1 {
+  font-family: quicksand, sans-serif;
+  color: #72090f;
+}
+.login-page .login-form input {
+  width: 90%;
+  height: 30px;
+  margin: 10px 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.login-page .login-form .button {
+  width: 97%;
+  height: 35px;
+  background-color: #ac5559;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.login-page .login-form .button:hover {
+  background-color: #72090f;
+  cursor: pointer;
+}
+.login-page .login-form button {
+  width: 97%;
+  height: 45px;
+  text-decoration: none;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgb(159, 124, 124);
+  margin: 30px 0;
+}
+.login-page a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+.login-page a:hover {
+  color: #65060b;
+  font-weight: bold;
+}
+.login-page button a {
+  display: block;
+}
+.login-page .signin {
+  border: 1px solid black;
+  width: 25%;
+  min-width: 400px;
+  margin-top: 30px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.login-page .signin a {
+  color: #65060b;
+  font-weight: bold;
+}
+.login-page .login-form p {
+  margin: 0;
+  text-align: left;
+  padding-left: 10px;
+}
+/* ---------------------- */
+.login-page .registration-form {
+  width: 30%;
+  margin-top: 50px;
+  min-width: 400px;
+}
+.login-page .login {
+  border: 1px solid black;
+  width: 30%;
+  min-width: 400px;
+
+  margin-top: 30px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.login-page .registration-form input {
+  height: 20px;
+  margin: 5px;
+}
+.login-page .login a {
+  color: #65060b;
+  font-weight: bold;
+}
+.login-page .registration-form .button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.login-page .registration-form button {
+  margin-top: 15px;
+}
